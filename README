@@ -1,0 +1,8 @@
+QPhpEdit is a php editor written in C++/Qt, it's a free software under GPLv3
+
+
+TO compile:
+qmake -r
+make
+./bin/QPhpEdit
+
