@@ -1,0 +1,557 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>optionsForm</class>
+ <widget class="QWidget" name="optionsForm">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>650</width>
+    <height>547</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_5">
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_10" stretch="1,0">
+     <property name="spacing">
+      <number>7</number>
+     </property>
+     <item>
+      <widget class="QListWidget" name="listWidget">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Fixed" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>200</width>
+         <height>16777215</height>
+        </size>
+       </property>
+       <property name="currentRow">
+        <number>0</number>
+       </property>
+       <item>
+        <property name="text">
+         <string>Editor</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>ShortCuts</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Header</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item>
+      <widget class="QStackedWidget" name="stackedWidget">
+       <property name="currentIndex">
+        <number>0</number>
+       </property>
+       <widget class="QWidget" name="page">
+        <layout class="QVBoxLayout" name="verticalLayout_6">
+         <item>
+          <widget class="QGroupBox" name="groupBox_2">
+           <property name="title">
+            <string>Common</string>
+           </property>
+           <layout class="QVBoxLayout" name="verticalLayout_2">
+            <item>
+             <widget class="QCheckBox" name="m_lineNumber">
+              <property name="styleSheet">
+               <string notr="true">text-align: left;</string>
+              </property>
+              <property name="text">
+               <string>Show line number</string>
+              </property>
+              <property name="checked">
+               <bool>true</bool>
+              </property>
+              <property name="tristate">
+               <bool>false</bool>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QCheckBox" name="checkBox_4">
+              <property name="text">
+               <string>used space for indent</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <layout class="QHBoxLayout" name="horizontalLayout_12">
+              <item>
+               <widget class="QLabel" name="label_7">
+                <property name="text">
+                 <string>Indent Size</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QSpinBox" name="spinBox">
+                <property name="minimum">
+                 <number>1</number>
+                </property>
+                <property name="maximum">
+                 <number>40</number>
+                </property>
+                <property name="singleStep">
+                 <number>1</number>
+                </property>
+                <property name="value">
+                 <number>4</number>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item>
+          <widget class="QGroupBox" name="fontgroup">
+           <property name="title">
+            <string>Font</string>
+           </property>
+           <layout class="QHBoxLayout" name="horizontalLayout">
+            <item>
+             <widget class="QLabel" name="label">
+              <property name="text">
+               <string>Font:</string>
+              </property>
+              <property name="buddy">
+               <cstring>m_fontComboBox</cstring>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QFontComboBox" name="m_fontComboBox">
+              <property name="currentFont">
+               <font>
+                <family>Nimbus Mono L</family>
+               </font>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="label_2">
+              <property name="text">
+               <string>Size:</string>
+              </property>
+              <property name="buddy">
+               <cstring>m_fontSizeSelector</cstring>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QSpinBox" name="m_fontSizeSelector">
+              <property name="minimum">
+               <number>1</number>
+              </property>
+              <property name="value">
+               <number>1</number>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item>
+          <widget class="QGroupBox" name="colorscheme">
+           <property name="title">
+            <string>Color Scheme</string>
+           </property>
+           <layout class="QHBoxLayout" name="horizontalLayout_5">
+            <item>
+             <widget class="QListWidget" name="m_colorScheme">
+              <property name="currentRow">
+               <number>-1</number>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <layout class="QVBoxLayout" name="verticalLayout">
+              <item>
+               <layout class="QHBoxLayout" name="horizontalLayout_3">
+                <item>
+                 <widget class="QLabel" name="label_4">
+                  <property name="text">
+                   <string>Background:</string>
+                  </property>
+                  <property name="buddy">
+                   <cstring>m_bgColorButton</cstring>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="m_bgColorButton">
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+              <item>
+               <layout class="QHBoxLayout" name="horizontalLayout_2">
+                <item>
+                 <widget class="QLabel" name="label_3">
+                  <property name="text">
+                   <string>Foreground:</string>
+                  </property>
+                  <property name="buddy">
+                   <cstring>m_fgColorButton</cstring>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="m_fgColorButton">
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+              <item>
+               <layout class="QHBoxLayout" name="horizontalLayout_4">
+                <item>
+                 <widget class="QCheckBox" name="m_boldBox">
+                  <property name="styleSheet">
+                   <string notr="true">font: bold;</string>
+                  </property>
+                  <property name="text">
+                   <string>Bold</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QCheckBox" name="m_italicBox">
+                  <property name="styleSheet">
+                   <string notr="true">font: italic;</string>
+                  </property>
+                  <property name="text">
+                   <string>Italic</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+             </layout>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPlainTextEdit" name="m_exempleedit">
+           <property name="maximumSize">
+            <size>
+             <width>16777215</width>
+             <height>16777210</height>
+            </size>
+           </property>
+           <property name="plainText">
+            <string>&lt;?php
+/*******************************************
+*index.php - page principale
+*
+*Auteur : Renaud GUEZENNEC
+*
+*******************************************/
+/*TODO:: gestion des erreurs des requêtes*/
+function utf_array($a)
+{
+	foreach($a as $key=&gt; &amp;$value)
+	{
+		$value=utf8_encode($value);
+	}
+	
+}
+
+  $i=1;
+  define('ACCUEIL', $i++);
+  define('PROGRAMMATION', $i++);
+  define('BLOG', $i++);
+
+
+include_once(&quot;include/driversql.inc.php&quot;);
+
+$dsql = new driversql();
+$dsql-&gt;init();
+
+include_once(&quot;session/session_lib.php&quot;);
+include_once(&quot;include/lib.php&quot;);
+
+compteur();
+
+include_once(&quot;include/entete.php&quot;);
+
+$_SESSION['URI']=$_SERVER['REQUEST_URI'];
+$titre = ' '.$ligne['name'].$appli_choisi;
+	
+//&lt;a href=&quot;index.html&quot;&gt;Index&lt;/a&gt; &amp;gt; &lt;a href=&quot;index.html&quot;&gt;Index&lt;/a&gt;
+
+	$chemin = &quot;&quot;;		
+	if(empty($_GET['menu']))
+	{
+		$chemin = $ligne['chemin'].'/index.php';
+		$_SESSION['appli']=$ligne['chemin'];	
+	}
+	else
+	{
+		if(empty($_GET['souslien']))
+		{
+			$dsql-&gt;envoirequete('select lien from `'.$module[0].'Menu` where `id_menu` = &quot;'.$_GET['menu'].'&quot;');
+			$dsql-&gt;res_tab_assoc($ligne2);
+		
+		}
+		else
+		{
+			$dsql-&gt;envoirequete(&quot;select lien from `Sousmenu` where `id_sousmenu` = &quot;.$_GET['souslien']);
+			$dsql-&gt;res_tab_assoc($ligne2);
+		}
+		    
+		    $chemin = $ligne2['lien'].'/index.php';
+			$_SESSION['appli']=$module[0];
+			
+	}
+$desc =&quot;Site de Renaud GUEZENNEC, portail en ligne de l'auteur - L'accueil: page principale du site.&quot;;
+$namePage =&quot;&quot;;
+switch($id)
+{
+		case(1):
+			$namePage=&quot;accueil&quot;;
+			break;
+		case(2):
+			$namePage=&quot;programmation&quot;;
+			break;
+		case(3):
+			$namePage=&quot;blog&quot;;
+			break;
+}
+require_once(&quot;include/filariane.php&quot;);
+require_once(&quot;include/menu.php&quot;);
+require_once(&quot;accueil/rss_reader.php&quot;);
+require_once(&quot;users/form.php&quot;);
+require_once($chemin);
+require_once(&quot;modele.php&quot;); 
+	
+?&gt;</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QWidget" name="page_2">
+        <layout class="QVBoxLayout" name="verticalLayout_3">
+         <item>
+          <widget class="QTableWidget" name="tableWidget">
+           <attribute name="horizontalHeaderStretchLastSection">
+            <bool>true</bool>
+           </attribute>
+           <column>
+            <property name="text">
+             <string>Command</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>Label</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>ShortCut</string>
+            </property>
+           </column>
+          </widget>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_6">
+           <item>
+            <widget class="QPushButton" name="pushButton_3">
+             <property name="text">
+              <string>Reset</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <spacer name="horizontalSpacer">
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>40</width>
+               <height>20</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+           <item>
+            <widget class="QPushButton" name="pushButton_4">
+             <property name="text">
+              <string>Import...</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="pushButton_5">
+             <property name="text">
+              <string>Export...</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <widget class="QGroupBox" name="groupBox">
+           <property name="title">
+            <string>Key Sequence</string>
+           </property>
+           <layout class="QHBoxLayout" name="horizontalLayout_7">
+            <item>
+             <widget class="QLineEdit" name="lineEdit"/>
+            </item>
+            <item>
+             <widget class="QPushButton" name="pushButton_6">
+              <property name="text">
+               <string>reccord</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QWidget" name="page_3">
+        <layout class="QVBoxLayout" name="verticalLayout_4">
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_8">
+           <item>
+            <widget class="QLabel" name="label_5">
+             <property name="text">
+              <string>File type:</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QComboBox" name="comboBox"/>
+           </item>
+           <item>
+            <spacer name="horizontalSpacer_2">
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>198</width>
+               <height>20</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_9">
+           <item>
+            <widget class="QLabel" name="label_6">
+             <property name="text">
+              <string>Template:</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <spacer name="horizontalSpacer_3">
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>308</width>
+               <height>20</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <widget class="QTextEdit" name="textEdit"/>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_11">
+     <item>
+      <spacer name="horizontalSpacer_4">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QDialogButtonBox" name="buttonBox">
+       <property name="standardButtons">
+        <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <tabstops>
+  <tabstop>listWidget</tabstop>
+  <tabstop>m_fontComboBox</tabstop>
+  <tabstop>m_fontSizeSelector</tabstop>
+  <tabstop>m_colorScheme</tabstop>
+  <tabstop>m_fgColorButton</tabstop>
+  <tabstop>m_bgColorButton</tabstop>
+  <tabstop>m_boldBox</tabstop>
+  <tabstop>m_italicBox</tabstop>
+  <tabstop>buttonBox</tabstop>
+ </tabstops>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>listWidget</sender>
+   <signal>currentRowChanged(int)</signal>
+   <receiver>stackedWidget</receiver>
+   <slot>setCurrentIndex(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>69</x>
+     <y>80</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>332</x>
+     <y>144</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

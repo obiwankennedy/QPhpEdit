@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/QPhpedit" >
+        <file>resources/icon/logo.svg</file>
+        <file>resources/icon/qphpedit.png</file>
+        <file>resources/keyword/php.txt</file>
+    </qresource>
+</RCC>

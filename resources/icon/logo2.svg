@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.46"
+   sodipodi:docname="logo.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape">
+  <defs
+     id="defs4">
+    <linearGradient
+       id="linearGradient2397">
+      <stop
+         style="stop-color:#580000;stop-opacity:1;"
+         offset="0"
+         id="stop2399" />
+      <stop
+         style="stop-color:#b42828;stop-opacity:1;"
+         offset="1"
+         id="stop2401" />
+    </linearGradient>
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective10" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2397"
+       id="linearGradient2403"
+       x1="402.85715"
+       y1="818.07648"
+       x2="402.85715"
+       y2="543.25555"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.5"
+     inkscape:cx="524.01734"
+     inkscape:cy="495.73754"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1280"
+     inkscape:window-height="951"
+     inkscape:window-x="0"
+     inkscape:window-y="24" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:url(#linearGradient2403);fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="rect2387"
+       width="577.14288"
+       height="588.57141"
+       x="100"
+       y="229.50504"
+       ry="78.791901" />
+    <path
+       style="font-size:308.66845703px;font-style:normal;font-weight:normal;fill:#b3b3b3;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       d="M 231.72225,412.62088 C 209.61699,412.62109 192.03335,420.86028 178.97129,437.33848 C 166.00957,453.81703 159.52875,476.27385 159.5288,504.70898 C 159.52875,533.04387 166.00957,555.45044 178.97129,571.92878 C 192.03335,588.4072 209.61699,596.64639 231.72225,596.64637 C 253.82727,596.64639 271.31042,588.4072 284.17177,571.92878 C 297.13325,555.45044 303.61407,533.04387 303.61427,504.70898 C 303.61407,476.27385 297.13325,453.81703 284.17177,437.33848 C 271.31042,420.86028 253.82727,412.62109 231.72225,412.62088 M 274.37516,612.9238 L 274.34089,613.03246 C 274.34089,613.03246 273.04687,613.51365 273.77215,615.15746 C 274.49743,616.80127 278.97185,616.95474 282.45342,619.65746 C 285.93499,622.36018 292.99722,630.55253 295.50968,634.28246 C 298.02214,638.01239 298.34876,640.74145 300.08625,643.59496 C 301.82374,646.44847 305.09743,651.0022 307.16281,653.15746 C 309.22819,655.31272 311.24278,656.91702 313.3886,658.18871 C 315.53442,659.4604 318.14525,660.63779 321.36438,661.46996 L 334.81594,663.03246 L 327.11383,672.02712 C 322.6676,673.5306 312.89019,670.27556 308.09455,667.96328 C 303.29891,665.651 298.76974,661.30757 295.70027,657.77444 C 292.6308,654.24131 290.71479,649.11477 287.80599,644.83561 C 284.89719,640.55645 280.48896,632.67551 276.16171,629.39677 C 271.83446,626.11803 265.25734,624.56023 260.4596,623.26643 C 255.66186,621.97263 244.38248,620.76109 244.38248,620.76109 C 241.06657,620.96204 249.61607,621.11276 236.69591,621.21324 C 234.98766,621.31371 233.32977,621.36395 231.72225,621.36396 C 200.07158,621.36395 174.75115,610.81377 155.76087,589.71338 C 136.87098,568.51257 127.42605,540.1778 127.42607,504.70898 C 127.42605,469.13992 136.87098,440.80514 155.76087,419.70458 C 174.75115,398.50394 200.07158,387.90352 231.72225,387.90329 C 263.27219,387.90352 288.49215,398.50394 307.38219,419.70458 C 326.27184,440.80514 335.71677,469.13992 335.71699,504.70898 C 335.71677,530.83335 330.44168,553.18969 319.8917,571.77806 C 317.27922,576.42518 314.3716,580.76771 311.16884,584.80568 C 307.96609,588.84364 304.46818,592.57702 300.67514,596.00583 C 296.8821,599.43464 292.79391,602.55888 288.41058,605.37854 C 284.02725,608.1982 279.34878,610.71329 274.37516,612.9238"
+       id="text2405"
+       sodipodi:nodetypes="ccscscccccczzzzzzzczzzzzzccscscccccssss" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#0066ff"
+       id="path3193"
+       sodipodi:cx="503"
+       sodipodi:cy="534.36218"
+       sodipodi:rx="161"
+       sodipodi:ry="90"
+       d="M 664,534.36218 A 161,90 0 1 1 342,534.36218 A 161,90 0 1 1 664,534.36218 z"
+       transform="matrix(1.0621118,0,0,1.0363636,-25.242236,-42.70408)" />
+    <text
+       xml:space="preserve"
+       style="font-size:138.00656128px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:1.79741812;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+       x="394.57358"
+       y="536.63269"
+       id="text3189"
+       transform="scale(0.9528813,1.0494487)"><tspan
+         sodipodi:role="line"
+         id="tspan3191"
+         x="394.57358"
+         y="536.63269"
+         style="font-style:oblique;font-variant:normal;font-weight:bold;font-stretch:normal;stroke-width:1.79741812;font-family:Bitstream Vera Sans;-inkscape-font-specification:Bitstream Vera Sans Bold Oblique">Php</tspan></text>
+  </g>
+</svg>
