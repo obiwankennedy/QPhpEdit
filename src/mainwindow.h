@@ -20,7 +20,7 @@
 #ifndef MAINWINDOW_H
 #define MAINWINDOW_H
 
-#include <QtGui/QMainWindow>
+#include <QMainWindow>
 #include <QToolBar>
 #include <QMenu>
 #include <QMenuBar>

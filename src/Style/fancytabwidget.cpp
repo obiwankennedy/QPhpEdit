@@ -32,17 +32,17 @@
 
 #include <QDebug>
 
-#include <QtGui/QColorDialog>
-#include <QtGui/QHBoxLayout>
-#include <QtGui/QVBoxLayout>
-#include <QtGui/QMouseEvent>
-#include <QtGui/QWindowsStyle>
-#include <QtGui/QPainter>
-#include <QtGui/QSplitter>
-#include <QtGui/QStackedLayout>
-#include <QtGui/QStatusBar>
-#include <QtGui/QToolBar>
-#include <QtGui/QToolButton>
+#include <QColorDialog>
+#include <QHBoxLayout>
+#include <QVBoxLayout>
+#include <QMouseEvent>
+#include <QProxyStyle>
+#include <QPainter>
+#include <QSplitter>
+#include <QStackedLayout>
+#include <QStatusBar>
+#include <QToolBar>
+#include <QToolButton>
 
 
 
@@ -52,7 +52,7 @@ const int FancyTabBar::m_textPadding = 4;
 FancyTabBar::FancyTabBar(QWidget *parent)
     : QTabBar(parent)
 {
-    setStyle(new QWindowsStyle);
+    setStyle(new QProxyStyle);
     setDrawBase(false);
     setElideMode(Qt::ElideNone);
     setMinimumWidth(qMax(2 * m_rounding, 40));

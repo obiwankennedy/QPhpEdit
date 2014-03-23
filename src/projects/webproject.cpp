@@ -138,7 +138,7 @@ void WebProject::updateModifiedTime()
 }
 QDataStream& operator<<(QDataStream& Out, const WebProject& project)
 {
-  Out << project.m_type;
+ // Out << ((quint32)project.m_type);
   Out << project.m_name;
   Out << project.m_author;
   Out << project.m_path;
@@ -148,8 +148,9 @@ QDataStream& operator<<(QDataStream& Out, const WebProject& project)
 
 QDataStream& operator>>(QDataStream& is,WebProject& project)
 {
-    int ab = 0;
-    is >> ab;
+    /// @todo enable reading and writing project type.
+    quint32 ab = 0;
+ //   is >> ab;
     project.m_type = (ProjectType)ab;
   is >> project.m_name;
   is >> project.m_author;

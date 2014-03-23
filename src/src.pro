@@ -30,3 +30,7 @@ HEADERS += mainwindow.h \
 MOC_DIR = ../bin
 OBJECTS_DIR = ../bin
 RESOURCES += ../qphpedit.qrc
+
+
+
+greaterThan(QT_MAJOR_VERSION, 4): QT += widgets

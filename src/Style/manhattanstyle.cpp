@@ -35,26 +35,26 @@
 #include <QtCore/QDebug>
 #include <QtCore/QLibrary>
 
-#include <QtGui/QApplication>
-#include <QtGui/QComboBox>
-#include <QtGui/QDialog>
-#include <QtGui/QDialogButtonBox>
-#include <QtGui/QDockWidget>
-#include <QtGui/QLabel>
-#include <QtGui/QLineEdit>
-#include <QtGui/QMainWindow>
-#include <QtGui/QMenuBar>
-#include <QtGui/QPainter>
-#include <QtGui/QPixmap>
-#include <QtGui/QPixmapCache>
-#include <QtGui/QPushButton>
-#include <QtGui/QScrollArea>
-#include <QtGui/QSplitter>
-#include <QtGui/QStatusBar>
-#include <QtGui/QStyleFactory>
-#include <QtGui/QStyleOption>
-#include <QtGui/QToolBar>
-#include <QtGui/QToolButton>
+#include <QApplication>
+#include <QComboBox>
+#include <QDialog>
+#include <QDialogButtonBox>
+#include <QDockWidget>
+#include <QLabel>
+#include <QLineEdit>
+#include <QMainWindow>
+#include <QMenuBar>
+#include <QPainter>
+#include <QPixmap>
+#include <QPixmapCache>
+#include <QPushButton>
+#include <QScrollArea>
+#include <QSplitter>
+#include <QStatusBar>
+#include <QStyleFactory>
+#include <QStyleOption>
+#include <QToolBar>
+#include <QToolButton>
 
 //#include <utils/qtcassert.h>
 
@@ -124,7 +124,7 @@ public:
 };
 
 ManhattanStyle::ManhattanStyle(const QString &baseStyleName)
-    : QWindowsStyle(), d(new ManhattanStylePrivate(baseStyleName))
+    : QProxyStyle(), d(new ManhattanStylePrivate(baseStyleName))
 {
 }
 

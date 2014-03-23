@@ -19,7 +19,7 @@
  ***************************************************************************/
 #include "projectwizzard.h"
 #include "stylehelper.h"
-#include <QWindowsStyle>
+#include <QProxyStyle>
 #include <QStyleOptionTabV2>
 #include <QMouseEvent>
 #include <QDebug>
@@ -29,7 +29,7 @@ const int RedTabBar::m_textPadding = 4;
 RedTabBar::RedTabBar(QWidget *parent)
     : QTabBar(parent)
 {
-    setStyle(new QWindowsStyle);
+    setStyle(new QProxyStyle);
     if(parent!=NULL)
         m_parenwidth = parent->geometry().width();
     setDrawBase(false);

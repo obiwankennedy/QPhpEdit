@@ -20,7 +20,7 @@
 #ifndef NEWDIALOG_H
 #define NEWDIALOG_H
 
-#include <QtGui/QDialog>
+#include <QDialog>
 #include "webproject.h"
 namespace Ui {
     class NewDialog;

@@ -3,8 +3,8 @@
 
 #include "ftpnode.h"
 #include <QObject>
-#include <QUrlInfo>
-#include <QFtp>
+#include <QNetworkAccessManager>
+
 class PopulateChildVisitor : public QObject
 {
     Q_OBJECT
@@ -14,13 +14,13 @@ public:
     void setNode(FtpNode* p);
     void populateNode();
 private slots:
-    void replyFinished(const QUrlInfo & i);
+    void replyFinished(const QNetworkReply & i);
     void commandFinished();
 private:
     FtpNode* m_internal;
 
 
-    QFtp* m_ftpsite;
+    QNetworkAccessManager* m_ftpsite;
 
     QString m_host;
     QString m_login;

@@ -33,10 +33,10 @@
 //#include "core_global.h"
 
 #include <QtCore/QRect>
-#include <QtGui/QPainter>
-#include <QtGui/QApplication>
-#include <QtGui/QPalette>
-#include <QtGui/QColor>
+#include <QPainter>
+#include <QApplication>
+#include <QPalette>
+#include <QColor>
 
 // Helper class holding all custom color values
 
